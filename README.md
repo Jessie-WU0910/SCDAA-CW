@@ -48,6 +48,30 @@ values = lqr_solver.compute_value_function(t_batch, x_batch)
 controls = lqr_solver.compute_control_function(t_batch, x_batch)
 
 
+### Exercise 1.2: LQR Monte Carlo Checks
+
+Use the `monte_carlo_simulation` function to simulate the system with the optimal solution obtained from the LQR solver. Run the simulation with a large number of samples and various time steps to observe convergence.
+
+To execute this simulation, run the following code:
+# Exercise 1.2
+
+
+### Exercise 2: Supervised Learning for Neural Networks
+This exercise involves training neural networks to approximate the value and control functions obtained in Exercise 1. Modify the neural network parameters and training data as needed in the script.
+
+To train the neural networks, execute the code:
+# Exercise 2.1 & # Exercise 2.2
 
 
 
+### Exercise 3: Deep Galerkin Method
+Implement the deep Galerkin method to approximate the solution of a provided linear PDE. The script contains the neural network model and training loop.
+
+Run the deep Galerkin method running code:
+# Exercise 3.1
+
+### Exercise 4: Policy Iteration with Deep Galerkin Method (DGM)
+Perform policy iteration using the DGM by executing the policy iteration script. This script uses the trained models from the previous exercises to refine the policy.
+
+To start policy iteration, running the code:
+# Exercise 4.1
